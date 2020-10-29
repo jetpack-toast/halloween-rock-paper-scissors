@@ -1,0 +1,24 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.ImageView.PlayerHand" parent="">
+        <item name="handColor">@color/hand_color_player</item>
+        <item name="fingernailColor">@color/thumbnail_color_player</item>
+    </style>
+    <style name="AppTheme.ImageView.AIHand" parent="">
+        <item name="handColor">@color/hand_color_ai</item>
+        <item name="fingernailColor">@color/thumbnail_color_ai</item>
+    </style>
+    <style name="AppTheme.TextView.Result" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">100sp</item>
+        <item name="fontFamily">@font/gingerbread_house</item>
+    </style>
+    <style name="AppTheme.TextView.TableScratch" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_table_scratch</item>
+        <item name="fontFamily">@font/gochi_hand</item>
+    </style>
+</resources>
