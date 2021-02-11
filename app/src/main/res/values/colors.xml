@@ -3,12 +3,4 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="hand_color_player">#FFCCAA</color>
-    <color name="thumbnail_color_player">#FFE5DB</color>
-    <color name="hand_color_ai">#9494FF</color>
-    <color name="thumbnail_color_ai">#DDDBFF</color>
-    <color name="color_win">#00FF00</color>
-    <color name="color_lose">#FF0000</color>
-    <color name="color_tie">#FFFF00</color>
-    <color name="color_table_scratch">#572600</color>
 </resources>

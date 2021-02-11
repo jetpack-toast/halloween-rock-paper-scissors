@@ -2,17 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".MainActivity">
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/game_result"
         android:visibility="gone"
-        tools:visibility="visible"
-        tools:text="You WON"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -31,8 +27,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/ai_hand_image"
-        android:contentDescription="@string/player_hand_desc" />
+        app:layout_constraintEnd_toStartOf="@id/ai_hand_image" />
 
     <ImageView
         android:id="@+id/ai_hand_image"
@@ -46,8 +41,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/player_hand_image"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/computer_hand_desc" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/picnic_table"
@@ -75,7 +69,7 @@
         android:id="@+id/timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="8"
+        android:text="8"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:layout_marginBottom="20dp"
@@ -98,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        tools:text="111"
+        android:text="111"
         app:layout_constraintTop_toTopOf="@id/games_label"
         app:layout_constraintStart_toEndOf="@id/games_label" />
 
@@ -116,7 +110,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        tools:text="111"
+        android:text="111"
         app:layout_constraintTop_toTopOf="@id/wins_label"
         app:layout_constraintStart_toEndOf="@id/wins_label" />
 
@@ -134,7 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        tools:text="111"
+        android:text="111"
         app:layout_constraintTop_toTopOf="@id/lost_label"
         app:layout_constraintStart_toEndOf="@id/lost_label" />
 
@@ -152,7 +146,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        tools:text="111"
+        android:text="111"
         app:layout_constraintTop_toTopOf="@id/tied_label"
         app:layout_constraintStart_toEndOf="@id/tied_label" />
 
@@ -171,7 +165,7 @@
         android:id="@+id/new_game_button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="@string/new_game"
+        android:text="New Game"
         android:backgroundTint="@color/colorAccent"
         android:textColor="@android:color/black"
         android:layout_marginBottom="10dp"
